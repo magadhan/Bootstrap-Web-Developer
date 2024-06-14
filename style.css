@@ -55,28 +55,18 @@ a{
     min-height: 500px;
 }
 
-.footer{
-    background-color: rgb(45, 67, 210);
-    padding-left: 300px;
-    padding-right: 300px;
+.below_pic{
+    background-color: rgb(198, 190, 190);
+    padding-left: 135px;
+    padding-right: 135px;
 }
 
-.about-title{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-.about-explanation{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 200px;
-    margin-right: 200px;
-    line-height: 50px;
-}
-.about-explanation strong{
-    font-size: 18px;
-    padding-bottom: 10px;
+.shop-online{
+    font-size: 24px;
+    font-family: "Bebas Neue", sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
 }
 
 .card-img-top{
@@ -99,17 +89,72 @@ a{
 .card-title{
     display: flex;
     justify-content: center;
-}    
+}
 
+.footer{
+    background-color: rgb(27, 40, 122);
+    padding-left: 264px;
+    padding-right: 264px;
+}
 
-.starting_pic{
+.footer-text{
+    text-align: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* About page */
+.about-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.about-explanation{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 50px;
+}
+.about-explanation strong{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+/* Item Page */
+#carouselExampleInterval{
+    width: 30%;
+    height: 100%;
+    padding-left: 30px;
     float: left;
 }
-
-.starting_pic ul{
-    list-style-type: none;
+.item-discription{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 44%;
+    height: 100%;
+    float: left;
+    line-height: 30px;
 }
 
-.starting_pic li{
-    height: 100%;
+a.btn.btn-primary{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.item-discription h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.item-discription .address-return{
+    text-align: center;
+}
+
+.item-discription .map-return{
+    width: 90%;
+    height: 90%;
+    padding-left: 40px;
 }
