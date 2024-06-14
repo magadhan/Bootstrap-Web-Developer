@@ -12,6 +12,16 @@ a{
     font-style: normal;
     }
 
+button.btn.btn-primary{
+    position: fixed;
+    font-family: "Bebas Neue", sans-serif;
+    background-color: blue;
+    border-radius: 5px;
+    top: 550px;
+    margin-left: 95%;
+
+}
+
 .video-link{
     color: rgb(48, 43, 43);
     text-decoration:dashed;
@@ -61,7 +71,7 @@ a{
     padding-right: 135px;
 }
 
-.shop-online{
+#shop-online, .contact{
     font-size: 24px;
     font-family: "Bebas Neue", sans-serif;
     padding-left: 100px;
@@ -79,6 +89,8 @@ a{
     margin-left: 10px;
     margin-right: 10px;
     font-family: "Bebas Neue", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height:auto;
 }
 .card img{
     width: 30%;
