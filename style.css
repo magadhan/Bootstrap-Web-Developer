@@ -15,16 +15,24 @@ a{
 button.btn.btn-primary{
     position: fixed;
     font-family: "Bebas Neue", sans-serif;
-    background-color: blue;
+    background-color: rgb(56, 134, 224);
     border-radius: 5px;
     top: 550px;
     margin-left: 95%;
-
+    z-index: 1;
+    border: 2px solid black;
+}
+h5#offcanvasWithBackdropLabel{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .video-link{
     color: rgb(48, 43, 43);
-    text-decoration:dashed;
+    text-decoration: dashed;
 }
 
 .d-flex{
@@ -98,7 +106,8 @@ button.btn.btn-primary{
 }
 .card-body{
     text-align: center;
-    padding: 0;
+    padding: 10px;
+    border-radius: 50%;
 }
 .card-title{
     display: flex;
@@ -121,31 +130,36 @@ button.btn.btn-primary{
 .contact-whole{
     background-color: lightblue;
     padding-top: 30px;
-    height:405px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 .contact{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;
     display: flex;
     justify-content: flex-start;
-    float:left;
 }
 .contact-icons{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 16px;  
-    display: flex;
-    justify-content: flex-start;
-}
-.contact-icon-pic{
-    background-color: red;
 }
 .contact-icon-pic a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    padding: 5px;
     background-color: #9bc9ef;
+    border: 2px solid rgb(24, 24, 201);
+    border-radius: 50%;
+    font-size: 24px;
+    background: transparent;
+    text-decoration: none;
 }
-    
+
 /* About page */
 .about-title{
     width: 100%;
