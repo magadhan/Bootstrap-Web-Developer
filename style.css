@@ -71,7 +71,7 @@ button.btn.btn-primary{
     padding-right: 135px;
 }
 
-#shop-online, .contact{
+#shop-online, #contact-title{
     font-size: 24px;
     font-family: "Bebas Neue", sans-serif;
     padding-left: 100px;
@@ -82,6 +82,7 @@ button.btn.btn-primary{
 .card-img-top{
     width: 50%;
     height: 50%;
+    padding-top: 20px;
 }
 .card{
     display: flex;
@@ -90,13 +91,14 @@ button.btn.btn-primary{
     margin-right: 10px;
     font-family: "Bebas Neue", sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height:auto;
+    min-height: 350px;
 }
 .card img{
     width: 30%;
 }
 .card-body{
     text-align: center;
+    padding: 0;
 }
 .card-title{
     display: flex;
@@ -116,6 +118,34 @@ button.btn.btn-primary{
     padding-right: 100px;
 }
 
+.contact-whole{
+    background-color: lightblue;
+    padding-top: 30px;
+    height:405px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 30px;
+}
+.contact{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-start;
+    float:left;
+}
+.contact-icons{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;  
+    display: flex;
+    justify-content: flex-start;
+}
+.contact-icon-pic{
+    background-color: red;
+}
+.contact-icon-pic a{
+    background-color: #9bc9ef;
+}
+    
 /* About page */
 .about-title{
     width: 100%;
@@ -142,6 +172,13 @@ button.btn.btn-primary{
     padding-left: 30px;
     float: left;
 }
+
+#carouselExampleInterval{
+    padding-top: 10px;
+}
+.card-body{
+    padding-top: 10px;
+}
 .item-discription{
     padding-left: 20px;
     padding-right: 20px;
@@ -156,6 +193,9 @@ a.btn.btn-primary{
     border-radius: 20px;
 }
 
+.item-discription{
+    padding-top: 10px;
+}
 .item-discription h3{
     font-size: 16px;
     font-weight: bold;
@@ -169,4 +209,5 @@ a.btn.btn-primary{
     width: 90%;
     height: 90%;
     padding-left: 40px;
+    margin-bottom: 20px;
 }
