@@ -116,8 +116,9 @@ h5#offcanvasWithBackdropLabel{
 
 .footer{
     background-color: rgb(27, 40, 122);
-    padding-left: 264px;
-    padding-right: 264px;
+    padding-left: auto ;
+    padding-right:auto;
+    width: 60%;
 }
 
 .footer-text{
@@ -202,7 +203,6 @@ h5#offcanvasWithBackdropLabel{
 }
 
 a.btn.btn-primary{
-    width: 100%;
     border-radius: 20px;
 }
 
@@ -213,7 +213,6 @@ a.btn.btn-primary{
     font-size: 16px;
     font-weight: bold;
 }
-
 .item-discription .address-return{
     text-align: center;
 }
@@ -223,4 +222,15 @@ a.btn.btn-primary{
     height: 90%;
     padding-left: 40px;
     margin-bottom: 20px;
+}
+
+/* shopping cart */
+.cart-img{
+    padding-left: 20px;
+    float: left;
+    margin-left: 300px;
+
+}
+.card.text-center{
+    box-shadow: none;
 }
