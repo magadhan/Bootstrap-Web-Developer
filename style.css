@@ -64,6 +64,12 @@ h5#offcanvasWithBackdropLabel{
     font-size: 20px;
     font-family: "Bebas Neue", sans-serif;
 }
+button#dropdownMenu2{
+    height: 56px;
+    padding: 0%;
+    background-color: #9bc9ef;
+}
+
 
 
 .carouselExampleControls{
@@ -100,6 +106,8 @@ h5#offcanvasWithBackdropLabel{
     font-family: "Bebas Neue", sans-serif;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     min-height: 350px;
+    max-height: fit-content;
+
 }
 .card img{
     width: 30%;
@@ -116,9 +124,9 @@ h5#offcanvasWithBackdropLabel{
 
 .footer{
     background-color: rgb(27, 40, 122);
-    padding-left: auto ;
-    padding-right:auto;
-    width: 60%;
+    padding-left: 500px ;
+    padding-right:500px;
+    width: 100%;
 }
 
 .footer-text{
