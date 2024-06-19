@@ -70,17 +70,47 @@ h5#offcanvasWithBackdropLabel{
     position: relative;
     justify-content: center;
 }
-.nav-link{
+a.nav-link{
     font-size: 20px;
     font-family: "Bebas Neue", sans-serif;
+}
+a.nav-link:hover{
+    transform:scale(1.2,1.2) translate3d(0,0,0);
+}
+a:hover{
+    transform:scale(1.2,1.2) translate3d(0,0,0); 
+}
+a.nav-link.active:hover{
+    transform: none;
+}
+button{
+    transition: transform calc(var(--animate)* 0.2s) ease, opacity calc(var(--animate)* 0.2s) ease;
 }
 button#dropdownMenu2{
     height: 45px;
     padding: 0%;
     background-color: #9bc9ef;
 }
-
-
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-menu {display: block;}
 
 .carouselExampleControls{
     background-repeat: no-repeat;
@@ -178,11 +208,33 @@ button#dropdownMenu2{
     margin-left: 10px;
     padding: 5px;
     border: 2px solid rgb(24, 24, 201);
+    color: rgb(24, 24, 201);
     border-radius: 50%;
     font-size: 24px;
     background: transparent;
     text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
 }
+.contact-icon-pic a:hover{
+    color: black;
+}
+.contact-icon-pic a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color:#0d74c9;
+    z-index: -1;
+    transition: .5s;
+}
+.contact-icon-pic a:hover::before{
+    width: 100%;
+}
+
+
 
 /* About page */
 .about-title{
@@ -264,3 +316,29 @@ a.btn.btn-primary{
     border-style: none;
     margin-right: 300px;
 }
+a.btn.btn-primary{
+    animation: wiggle 2s linear infinite;
+}
+@keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
