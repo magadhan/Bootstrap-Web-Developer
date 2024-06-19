@@ -107,6 +107,8 @@ button#dropdownMenu2{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     min-height: 350px;
     max-height: fit-content;
+    display: flex;
+    justify-content: space-around;
 
 }
 .card img{
@@ -122,11 +124,15 @@ button#dropdownMenu2{
     justify-content: center;
 }
 
+.footer-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 40, 122);
+}
 .footer{
     background-color: rgb(27, 40, 122);
-    padding-left: 500px ;
-    padding-right:500px;
-    width: 100%;
+
 }
 
 .footer-text{
@@ -236,9 +242,15 @@ a.btn.btn-primary{
 .cart-img{
     padding-left: 20px;
     float: left;
-    margin-left: 300px;
-
+    display: flex;
+    margin-left: 200px;
+}
+.no-item{
+    display: flex;
+    justify-content: space-between;
 }
 .card.text-center{
     box-shadow: none;
+    border-style: none;
+    margin-right: 300px;
 }
