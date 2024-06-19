@@ -12,16 +12,26 @@ a{
     font-style: normal;
     }
 
-button.btn.btn-primary{
+a.side-link{
     position: fixed;
     font-family: "Bebas Neue", sans-serif;
-    background-color: rgb(56, 134, 224);
     border-radius: 5px;
     top: 550px;
     margin-left: 95%;
     z-index: 1;
     border: 2px solid black;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid rgb(24, 24, 201);
+    border-radius: 50%;
+    font-size: 24px;
+    background: white;
+    text-decoration: none;
 }
+
 h5#offcanvasWithBackdropLabel{
     font-family: "Bebas Neue", sans-serif;
     font-size: 30px;

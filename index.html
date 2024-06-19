@@ -23,26 +23,14 @@
   </head>
 
   <body>
-    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Home</button>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Home</h5>
-        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul>
-          <li class="nav-item">
-            <a class="nav-link" href="#crasche-logo">Crasche</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#shop-online">Shop Online</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact-title">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <div id="navbar-example2">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="side-link" href="#scrollspyHeading1"><i class='bx bxs-up-arrow-circle'></i></a>
+        </li>
+      </ul>
     </div>
+    
 
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
       Check out the <strong><a class="video-link" href="https://www.youtube.com/watch?v=rOw-OG4ffuU" target="_blank">Demo Video</a></strong> for better understanding!
@@ -52,6 +40,7 @@
     <nav class="navbar navbar-light bg-light" aria-label='btn-primary'>
       <div class="container-fluid">
         <div class="container">
+          <div id="scrollspyHeading1" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0"></div>
           <a class="navbar-brand" href="#">
             <img src="./Images/crasche_logo.png" id="crasche-logo" alt="Picture of the Crasche brand logo" width="160" height="auto">
           </a>
@@ -80,16 +69,6 @@
                 </ul>
               </div>
             </li>
-            
-            <!-- <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Crasche</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#shop-online">Shop Online</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact-title">Contact</a>
-            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
